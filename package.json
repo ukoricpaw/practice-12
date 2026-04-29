@@ -1,16 +1,18 @@
 {
-  "name": "practice-12",
+  "name": "practice-13",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^17.4.2",
+    "eslint": "^10.2.1",
     "express": "^5.2.1",
     "mongodb": "^7.2.0"
   }
